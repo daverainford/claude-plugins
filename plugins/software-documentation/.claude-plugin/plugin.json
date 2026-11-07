@@ -1,0 +1,11 @@
+{
+  "name": "software-documentation",
+  "version": "1.0.0",
+  "description": "Generates software documentation for use in spec-driven development.",
+  "author": {
+    "name": "David Rainford"
+  },
+  "dependencies": [
+    "github@claude-plugins-official"
+  ]
+}

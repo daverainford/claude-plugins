@@ -5,14 +5,15 @@
   },
   "metadata": {
     "description": "Personal collection of Claude Code plugins",
-    "version": "0.1.0"
+    "version": "1.0.0"
   },
+  "allowCrossMarketplaceDependenciesOn": ["claude-plugins-official"],
   "plugins": [
     {
-      "name": "example-plugin",
-      "source": "./plugins/example-plugin",
-      "description": "Placeholder plugin showing the layout; replace or remove",
-      "version": "0.1.0"
+      "name": "software-documentation",
+      "source": "./plugins/software-documentation",
+      "description": "Beginning of the spec-driven development workflow. Generate requirements and software documents.",
+      "version": "1.0.0"
     }
   ]
 }

@@ -1,29 +1,20 @@
 # daverainford-plugins
 
-Personal Claude Code plugin marketplace.
+## Overview
 
-## Use
+A personal Claude Code plugin marketplace.
+
+| Plugin | Description |
+| --- | --- |
+| [`software-documentation`](plugins/software-documentation) | Generates requirements and software documents for spec-driven development. |
+
+## Installation
 
 ```
-/plugin marketplace add <github-user>/claude-plugins   # or a local path
-/plugin install example-plugin@daverainford-plugins
+/plugin marketplace add daverainford/claude-plugins
+/plugin install <plugin>@daverainford-plugins
 ```
 
-## Layout
+## Usage
 
-```
-.claude-plugin/marketplace.json     # marketplace catalog; one entry per plugin
-plugins/<name>/
-  .claude-plugin/plugin.json        # plugin manifest
-  skills/<skill>/SKILL.md           # optional
-  commands/*.md                     # optional
-  agents/*.md                       # optional
-  hooks/hooks.json                  # optional
-  .mcp.json                         # optional
-```
-
-## Add a plugin
-
-1. Create `plugins/<name>/` with a `.claude-plugin/plugin.json`.
-2. Add an entry to `plugins` in `.claude-plugin/marketplace.json` with `"source": "./plugins/<name>"`.
-3. Validate: `claude plugin validate .`
+See each plugin's README for its commands.
