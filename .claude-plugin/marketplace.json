@@ -1,0 +1,19 @@
+{
+  "name": "daverainford-plugins",
+  "owner": {
+    "name": "David Rainford"
+  },
+  "metadata": {
+    "description": "Personal collection of Claude Code plugins",
+    "version": "1.0.0"
+  },
+  "allowCrossMarketplaceDependenciesOn": ["claude-plugins-official"],
+  "plugins": [
+    {
+      "name": "software-documentation",
+      "source": "./plugins/software-documentation",
+      "description": "Beginning of the spec-driven development workflow. Generate requirements and software documents.",
+      "version": "1.0.0"
+    }
+  ]
+}
